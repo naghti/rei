@@ -1,6 +1,7 @@
+  
 {
   "posts": [
-    { "name": 1, "cost": "Post 1" },
+    { "name": 1, "cost": "Post 1", "img": "https://sun9-5.userapi.com/impg/9uJGdxrloHZ86DDej5_TFHCbUEG34aeeRAiGuw/gNcVDkxnVio.jpg?size=498x1080&quality=96&sign=eb1f8e10caaa6ad8eeb9ff41f96a250b&type=album%7C498%7C1080" },
     { "id": 2, "title": "Post 2" },
     { "id": 3, "title": "Post 3" }
   ]
