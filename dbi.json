@@ -1,5 +1,14 @@
-"gitars": [
-  { "name": "Hora N1150 SM500", "cost": "27 900.00", "img": "https://sun9-5.userapi.com/impg/9uJGdxrloHZ86DDej5_TFHCbUEG34aeeRAiGuw/gNcVDkxnVio.jpg?size=498x1080&quality=96&sign=eb1f8e10caaa6ad8eeb9ff41f96a250b&type=album%7C498%7C1080" },
-  { "name": "Yamaha C40B", "cost": "12 990.00", "img": "https://sun9-68.userapi.com/impg/tOthx8VEst5k9JfNBMKoAujPd2YHE-S-K_yIPw/N1vdIjRIpHQ.jpg?size=498x1080&quality=96&sign=a4a01b1e881aa47f6d76269147212b48&type=album%7C498%7C1080" },
-  { "name": "Cort AC200-OP Classic Series", "cost": "13 700.00", "img": "https://sun9-20.userapi.com/impg/zceS2CBmFn9jwXTPmZeh1J4IGe9lDfBfaBTw8g/qG0pVZAe7Co.jpg?size=498x1080&quality=96&sign=0b5846f904fc0dae5799fc5a6f75ff23&type=album%7C498%7C1080" }
-]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
