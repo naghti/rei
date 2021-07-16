@@ -1,0 +1,553 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(33, 33, 33, 0.75);
+  position: absolute;
+  width: 100%;
+}
+.nav__logo {
+  width: 30px;
+  height: 21px;
+  padding: 23px 20px;
+}
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 50%;
+}
+.nav__name {
+  font-family: Poppins;
+  font-size: 33.3px;
+  line-height: 65px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.075em;
+  color: #f5f5f5;
+  padding: 0px 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.21);
+  border-right: 1px solid rgba(255, 255, 255, 0.21);
+}
+.nav__li {
+  font-family: Montserrat;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  margin: 0 17px;
+}
+.nav__ul {
+  display: flex;
+  padding: 0px 20px;
+}
+.nav .social__item {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  border-left: 1px solid rgba(255, 255, 255, 0.21);
+}
+.nav .social__img {
+  margin: 0 22px;
+}
+.nav__search {
+  border-left: 1px solid rgba(255, 255, 255, 0.21);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 22px;
+}
+
+.header {
+  background: url(rectangle_1_3.png);
+  background-position: 0 0;
+  background-size: 100% cover;
+  padding: 200px 0 150px 0;
+}
+.header .text {
+  max-width: 40%;
+  text-align: center;
+  margin-left: 8vw;
+}
+.header .text__h1 {
+  font-family: Poppins;
+  font-size: 203.7px;
+  line-height: 147px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+  margin-bottom: 34px;
+}
+.header .text__p {
+  font-family: Montserrat;
+  font-size: 20.7px;
+  line-height: 29px;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  color: #ffffff;
+  margin: 60px;
+}
+.header .text__button button {
+  background: #3954d9;
+  border: none;
+  outline: none;
+  border-radius: 99px;
+  padding: 17px 25px;
+  font-family: Montserrat;
+  font-size: 17.3px;
+  line-height: 21px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.main {
+  max-width: 80%;
+  margin: 0 auto;
+  transform: translateY(-75px);
+  background: white;
+}
+.main .item_s {
+  display: flex;
+  justify-content: space-between;
+}
+.main .item_s .card {
+  max-width: 25%;
+  border-right: 1px solid #c7c7c7;
+  text-align: center;
+  padding: 80px 30px 60px;
+}
+.main .item_s .card__i {
+  margin-bottom: 50px;
+  width: 40px;
+  height: 40px;
+  color: #5b5b5b;
+}
+.main .item_s .card__h1 {
+  font-family: "Bebas Neue";
+  font-size: 32.9px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+  color: #0d2e57;
+  margin-bottom: 25px;
+}
+.main .item_s .card__p-text {
+  font-family: Montserrat;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #8a8a8a;
+  margin-bottom: 20px;
+}
+.main .item_s .card__p-info {
+  font-family: Montserrat;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #3753da;
+}
+.main .item_s .card:last-child {
+  border-right: 0px solid transparent;
+}
+.main .tovar {
+  width: 100%;
+  display: flex;
+}
+.main .tovar .text {
+  width: 50%;
+  background: #f2f0f0;
+  padding: 123px 100px 78px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
+}
+.main .tovar .text__collection {
+  font-family: Poppins;
+  font-size: 20.5px;
+  line-height: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #616161;
+  margin-bottom: 35px;
+}
+.main .tovar .text__name {
+  font-family: "Bebas Neue";
+  font-size: 43px;
+  line-height: 44px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0d2e57;
+  margin-bottom: 50px;
+}
+.main .tovar .text__info {
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #8a8a8a;
+  margin-bottom: 40px;
+}
+.main .tovar .text .price {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 55px;
+}
+.main .tovar .text .price__active {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 45px;
+  color: #3954d9;
+  margin-right: 25px;
+}
+.main .tovar .text .price_none-active {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  color: #121212;
+  margin-left: 25px;
+}
+.main .tovar .text .data {
+  display: flex;
+  justify-content: center;
+}
+.main .tovar .text .data__item {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 20px;
+  background: white;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+.main .tovar .text .data__item h1 {
+  font-family: Montserrat;
+  font-size: 38.3px;
+  line-height: 31px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #2d2b27;
+  margin-bottom: 20px;
+}
+.main .tovar .text .data__item p {
+  font-family: Montserrat;
+  font-size: 11.1px;
+  line-height: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #2d2b27;
+}
+.main .tovar .text .data__item h5 {
+  font-family: Montserrat;
+  font-size: 15px;
+  line-height: 0px;
+  font-weight: 400;
+  color: #121212;
+  transform: translateY(-13px);
+}
+.main .tovar .text button {
+  background: #3954d9;
+  border: none;
+  outline: none;
+  border-radius: 99px;
+  padding: 17px 25px;
+  font-family: Montserrat;
+  font-size: 17.3px;
+  line-height: 21px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  width: max-content;
+  margin: 40px auto 0;
+}
+.main .tovar .tovar__img {
+  width: 50%;
+  background-image: url(rectangle_4_14.png);
+  background-position: center 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.main .item {
+  width: 25%;
+}
+.main .item__img {
+  width: 100%;
+  height: 177px;
+  margin-top: 40px;
+  background-position: -21px center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.main .item__img_size {
+  width: 100%;
+  height: 177px;
+  margin-top: 40px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.main .item__name {
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0d2e57;
+  margin-top: 40px;
+}
+.main .item .price {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+.main .item .price__active_font-size {
+  font-family: Montserrat;
+  font-weight: 700;
+  color: #435ddc;
+  line-height: 15px;
+  margin-right: 10px;
+}
+.main .item .price_none-active_font-size {
+  font-family: Montserrat;
+  font-weight: 500;
+  color: #8e8e8e;
+}
+.main .item_size {
+  width: 50%;
+}
+.main .item_padding {
+  padding: 0px 50px 50px 50px;
+}
+.main .item_img {
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+.main .item_content-center {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 60px 0px;
+  box-sizing: border-box;
+  opacity: 0.7;
+  border-right: 1px solid #c7c7c7;
+}
+.main .item_content-center:last-child {
+  border-right: 0px solid transparent;
+}
+.main .product-previev {
+  background: #232323;
+  padding: 40px 40px 30px;
+  flex-grow: 2;
+  display: flex;
+  flex-wrap: wrap;
+  height: 280px;
+  align-content: space-between;
+}
+.main .product-previev__name {
+  font-family: "Bebas Neue";
+  font-size: 45.7px;
+  line-height: 41px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.main .product-previev__text {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.4em;
+  color: #ffffff;
+}
+.main .product-previev button {
+  background: #3954d9;
+  border: none;
+  outline: none;
+  border-radius: 99px;
+  padding: 17px 25px;
+  font-family: Montserrat;
+  font-size: 17.3px;
+  line-height: 21px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  width: max-content;
+}
+.main .product-previev_bg {
+  background: url(rectangle_5_27.png);
+  background-position: center center;
+  background-size: cover;
+}
+.main .product-previev_bg .product-previev__name {
+  font-family: Poppins;
+  font-size: 59.7px;
+  line-height: 61px;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+}
+.main .product-previev_bg .product-previev__button {
+  width: 100%;
+}
+.main .click-here {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+}
+.main .click {
+  font-family: Montserrat;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #3753da;
+}
+
+.footer {
+  background: url(layers1244124.png);
+  padding: 0 190px 80px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.footer .hr {
+  background: rgba(255, 255, 255, 0.21);
+  margin: 100px 0 50px;
+  height: 1px;
+  width: 100%;
+}
+.footer__content_s {
+  display: flex;
+}
+.footer__content1 {
+  width: 70%;
+}
+.footer__content2 {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.footer__content2 button {
+  background: #3954d9;
+  border: none;
+  outline: none;
+  border-radius: 99px;
+  padding: 14px 25px;
+  font-family: Montserrat;
+  font-size: 17.3px;
+  line-height: 21px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.footer__content2 i {
+  border-radius: 50%;
+  background: white;
+  color: #232323;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 13px;
+}
+.footer__content2 .input {
+  width: 420px;
+  height: 40px;
+  margin-bottom: 28px;
+  background: #2f2f2f;
+  border-radius: 99px;
+}
+.footer .item_s {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .item_s p {
+  opacity: 0.32;
+  font-family: Poppins;
+  font-size: 15.2px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+.footer .item_s img {
+  opacity: 0.6;
+}
+.footer .item {
+  max-width: 33.33333%;
+  display: flex;
+  flex-direction: column;
+}
+.footer .name {
+  font-family: Poppins;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #3753da;
+  margin-bottom: 45px;
+}
+.footer .text {
+  font-family: Poppins;
+  font-size: 15.2px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+footer::before {
+  content: "";
+  background: url(layers1244124.png);
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  transform: translateY(-160px);
+  z-index: -1;
+}
+
+.border-right {
+  border-right: 1px solid #c7c7c7;
+}
+
+.border-top {
+  border-top: 1px solid #c7c7c7;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.border-top {
+  border-top: 1px solid #c7c7c7;
+}
+
+.pad {
+  padding: 0 0 50px 50px;
+}
